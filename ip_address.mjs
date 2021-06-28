@@ -2,9 +2,7 @@
 
 'use strict'
 
-const { networkInterfaces } = require('os')
-
-const nets = networkInterfaces()
+const nets = os.networkInterfaces()
 const result = {}
 for (const key of Object.keys(nets)) {
     const r = {}
