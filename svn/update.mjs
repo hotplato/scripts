@@ -5,7 +5,7 @@ import path from 'path'
 
 $.verbose = false
 const pidPath = path.resolve(process.cwd(), 'svn.pid')
-let pid = await fs.readFile(pidPath)
+let pid = await fs.readFile(pidPath, {encoding: 'utf-8'})
 const regex = /[0-9]/g;
 let update = await $`svn update`
 if (update.exitCode === 0) {
