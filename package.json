@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotplato/scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotplato/scripts/issues"
+  },
+  "homepage": "https://github.com/hotplato/scripts#readme"
+}

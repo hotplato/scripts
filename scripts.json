@@ -1,5 +1,6 @@
 {
   "ipAddress": "./common/ip_address.mjs",
+  "port": "./common/port.mjs",
   "os": "./common/os.mjs",
   "svn:update": "./svn/update.mjs"
 }
