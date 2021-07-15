@@ -3,7 +3,7 @@
 import net from 'net'
 
 let server = net.createServer()
-let port = 0
+const port = argv._[1]
 server.once('error', function(err) {
     console.log(`port ${port} is being listened on`)
 })
@@ -14,6 +14,4 @@ server.once('listening', function() {
     console.log(`port ${port} is available`)
 })
 
-const args = process.argv.slice(2)
-port = args[1]
 server.listen(port)

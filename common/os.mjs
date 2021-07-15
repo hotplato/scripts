@@ -1,6 +1,6 @@
 #!/usr/bin/env zx
 
-const commands = Array.from(new Set(process.argv.slice(3)))
+const commands = Array.from(new Set(argv._.slice(1)))
 const defaultCommands = {
   platform: () => os.platform(),
   type: () => os.type(),
